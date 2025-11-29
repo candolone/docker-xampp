@@ -1,0 +1,8 @@
+/* {color : rgb(24, 214, 17);} */
+h1 { color : rgb(230, 208, 111); background-color: black; }
+
+/* classe con .nomeclasse*/
+.orario { color: rgb(37, 156, 53); }
+
+/* id attributo univoco con #nomeID */
+#titolo {color: rgb(25, 209, 34);}

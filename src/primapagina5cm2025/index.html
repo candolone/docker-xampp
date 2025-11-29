@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prima Pagina 5CM</title>
+    <link rel="icon" type="image/x-icon" href="img/images.png">
+    <style type="text/css">
+        table, th, td{
+            padding: 1em;
+            width: fit-content;
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+
+        /* hastag indica l'attributo ID
+        può essere utilizzatro una unica volta
+
+        */
+        #titolo{
+            text-align: center;
+            text-decoration-line: overline underline;
+            text-decoration-color: red;
+        }
+
+        img{
+            border-radius: 8px;
+            display: block;
+            width: 50%;
+        }
+
+        .inf {
+         background-color: cornflowerblue;
+        }
+
+        .sis {
+         background-color:chartreuse;
+        }
+
+        .mat {
+         background-color:chocolate;
+        }
+
+        .tps {
+         background-color:magenta;
+        }
+
+        .rel {
+         background-color:brown;
+        }
+
+        .smot {
+         background-color:gold;
+        }
+
+        .ita {
+         background-color:darkorchid;
+        }
+
+        .gpoi {
+         background-color:darkolivegreen;
+        }
+
+        .ing {
+         background-color:springgreen;
+        }
+
+        .ia {
+         background-color:lightgreen;
+        }
+
+        .pot {
+         background-color:silver;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/fogliostile.css">
+</head>
+<body>
+    <header>
+        <h1 >Marconi Pieralisi - Jesi</h1> <!--Titoli e sottotitoli esistenti-->
+        <h2>Sottotitolo</h2>
+        <!--<h3>Sottosottotitolo</h3>
+        <h4>Sottosottosottotitolo</h4>
+        <h5>Sottosottosottosottotitolo</h5>
+        <h6>Sottosottosottosottosottotitolo</h6>
+        <h7>Sottosottosottosottosottosottotitolo</h7>-->
+        <h2>Simulazione sito della scuola</h2>
+    
+        <nav> <!--Barra laterale simile a un menu'-->
+            <ul><!--ul elenco puntato, href="" serve a inserire il link di qualsiasi cosa (foto, video, siti, o altre pagine del progetto)-->
+                <li><a href="https://www.mcdonalds.it/ristorante/marche/ancona/jesi">Informatica</a></li>
+                <li><a href="https://kingattitude.it/?gad_source=1&gad_campaignid=18887616383&gbraid=0AAAAACvOJW57ehhbGkbK7Qa68-bj1D8bU&gclid=CjwKCAjwgeLHBhBuEiwAL5gNES9OyN7nCIOILh4FS0oZ3PgDRduJu7hMWmCBYyHofYpiGbEo3vIP-BoCc-0QAvD_BwE">Sistemi</a></li>
+                <li><a href="progettoAnno.html">Progetto dell'anno</a></li><!--li serve come riga di qualcosa-->
+            </ul>
+        </nav>
+</header>
+<section name="Laboratori"> <!--Sezione per dividere meglio il codice come in c#-->
+    <h1 id="titolo">Pagina classe 5CM</h1>
+    <ol><!--ol elenco numerato-->
+        <li>Lab. Informatica 2-21</li>
+        <li>Lab. Sistemi 2-20</li>
+        <li>Lab. Tpsit 2-19</li>
+    </ol>
+</section>
+
+<section name="Orario" class="orario">
+    <p class="orario">Orario di lezione</p>
+    <table> <!--Tabella, tr sono le colonne, td le righe-->
+        <caption>Orario Settimanale</caption>
+        <!-- Riga intestazione -->
+        <tr>
+            <th>Ora</th>
+            <th>Lunedì</th>
+            <th>Martedì</th>
+            <th>Mercoledì</th>
+            <th>Giovedì</th>
+            <th>Venerdì</th>
+            <th>Sabato</th>
+        </tr>
+        <!-- righe tabella -->
+        <tr>
+        <td>1a</td>
+        <td class="inf" rowspan="2">Informatica</td>
+        <td class="tps" rowspan="2">Tpsit</td>
+        <td class="sis">Sistemi e Reti</td>
+        <td class="tps">Tpsit</td>
+        <td class="gpoi">Gpoi</td>
+        <td class="ia">IA</td>
+    </tr>
+
+    <tr>
+        <td>2a</td>
+        <td class="ing">Inglese</td>
+        <td class="smot" rowspan="2">Scienze Motorie</td>
+        <td class="mat">Matematica</td>
+        <td class="gpoi" rowspan="2">Gpoi</td>
+    </tr>
+
+    <tr>
+        <td>3a</td>
+        <td class="sis" rowspan="2">Sistemi e reti</td>
+        <td class="pot">Potenziamento</td>
+        <td class="ita">Italiano</td>
+        <td class="ing" rowspan="2">Inglese</td>
+    </tr>
+
+    <tr>
+        <td>4a</td>
+        <td class="sis">Sistemi e reti</td>
+        <td class="inf" rowspan="3">Informatica</td>
+        <td class="ita">Storia</td>
+        <td class="mat">Matematica</td>
+    </tr>
+
+    <tr>
+        <td>5a</td>
+        <td class="mat">Matematica</td>
+        <td class="ita">Italiano e storia</td>
+        <td class="rel">Religione</td>
+        <td class="ita" rowspan="2">Italiano e storia</td>
+        <td class="inf">Informatica</td>
+    </tr>
+
+    
+    <tr>
+        <td>6a</td>
+        <td class="ita">Storia</td>
+        <td></td>
+        <td></td>
+    </tr>
+    </table>
+</section>
+
+<section name="immagini">
+    <br>
+     <!-- 7. Link: link del sito della scuola, che si deve aprire in un'altra finestra -->
+
+     <a href="http://www.iismarconipieralisi.it"  rel="noopener noreferrer" target="_blank">Link al sito del IIS Marconi Pieralisi</a>
+     <br>
+
+     <!-- 8. Immagine: immagine della scuola, con il collegamento al sito della scuola -->
+   <a href="http://www.iismarconipieralisi.it"  rel="noopener noreferrer" target="_blank">
+    <img src="img/iis-marconi-pieralisi_jesi_foto-aerea_4-3.webp" alt="Iis Marconi Pieralisi">
+    
+   </a>
+
+     <br>
+    </section>  
+    
+    
+<!-- PARTE FINALE !-->
+       <footer>
+         <p>
+            Indirizzo
+            Via Raffaello Sanzio, 8
+            60035 - JESI (AN)
+         </p>
+
+       </footer>
+</section>
+    
+</body>
+</html>
